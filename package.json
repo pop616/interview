@@ -1,0 +1,16 @@
+{
+  "name": "interview-questions-platform",
+  "version": "1.0.0",
+  "description": "Платформа для вопросов собеседований с мобильным и десктопным приложениями",
+  "main": "index.js",
+  "scripts": {
+    "backend": "cd backend && npm start",
+    "mobile": "cd mobile && npm start",
+    "desktop": "cd desktop && npm start",
+    "install-all": "npm install && cd backend && npm install && cd ../mobile && npm install && cd ../desktop && npm install"
+  },
+  "keywords": ["interview", "questions", "mobile", "desktop"],
+  "author": "",
+  "license": "MIT"
+}
+
